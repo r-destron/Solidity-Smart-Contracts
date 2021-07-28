@@ -1,0 +1,8 @@
+This is an Ethereum based smart contract which uses Solidity language.
+This is a simple lottery system in which :
+  - an organizer deploys the contract and organizes a lottery 
+  - the participants deposit one or more ethers to the contract and take part in the lottery
+After all participants have deposited the ethers to the contract, the organizer may pick the winner. Only the organizer is allowed to do so.
+The winner is picked randomly by using secure hash value.
+After the winner is picked, the ethers are transferred to the winner's account.
+At the end, the lottery is resetted, i.e. all the participants are removed from the list, and the lottery contract is ready to be used again, if required.
